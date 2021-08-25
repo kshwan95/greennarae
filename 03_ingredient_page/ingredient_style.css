@@ -1,0 +1,945 @@
+body{
+  width: 1920px;
+  height: 1024px;
+}
+div.season{
+  position: absolute;
+  top: 63px;
+  left: 756px;
+  width: 469px;
+  height: 150px;
+  text-align: left;
+  font: normal normal normal 100px/150px SangSangFlowerRoad;
+  letter-spacing: 0px;
+  color: #4D5933;
+  opacity: 1;
+}
+
+hr.upper_line{
+  position: absolute;
+  top: 211px;
+  left: 359px;
+  width: 1196px;
+  height: 0px;
+  border: 2px solid #415937;
+  opacity: 1;
+}
+
+hr.line{
+  position: absolute;
+  top: 264px;
+  left: 491px;
+  width: 937px;
+  height: 10px;
+  background: #C8CEB2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+div.circle1{
+  position: absolute;
+  top: 247px;
+  left: 670px;
+  width: 52px;
+  height: 53px;
+  background: #C8CEB2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+div.circle_text{
+  position: absolute;
+  top: 251px;
+  left: 687px;
+  width: 19px;
+  height: 45px;
+  text-align: left;
+  font: normal normal normal 30px/45px SangSangFlowerRoad;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+div.circle2{
+  position: absolute;
+  top: 259px;
+  left: 934px;
+  width: 33px;
+  height: 34px;
+  background: #C8CEB2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+div.circle3{
+  position: absolute;
+  top: 259px;
+  left: 1180px;
+  width: 33px;
+  height: 34px;
+  background: #C8CEB2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+button.button1{
+  position: absolute;
+  top: 344px;
+  left: 494px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+}
+label.select1{
+  position: absolute;
+  top: 364px;
+  left: 523px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+input.select1{
+  position: absolute;
+  top: 368px;
+  left: 499px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button2{
+  position: absolute;
+  top: 344px;
+  left: 687px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select2{
+  position: absolute;
+  top: 364px;
+  left: 718px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select2{
+  position: absolute;
+  top: 368px;
+  left: 694px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button3{
+  position: absolute;
+  top: 344px;
+  left: 880px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select3{
+  position: absolute;
+  top: 364px;
+  left: 912px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select3{
+  position: absolute;
+  top: 368px;
+  left: 888px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button4{
+  position: absolute;
+  top: 344px;
+  left: 1073px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select4{
+  position: absolute;
+  top: 364px;
+  left: 1105px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select4{
+  position: absolute;
+  top: 368px;
+  left: 1081px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button5{
+  position: absolute;
+  top: 344px;
+  left: 1266px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select5{
+  position: absolute;
+  top: 364px;
+  left: 1299px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select5{
+  position: absolute;
+  top: 368px;
+  left: 1275px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button6{
+  position: absolute;
+  top: 451px;
+  left: 494px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+
+label.select6{
+  position: absolute;
+  top: 470px;
+  left: 523px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select6{
+  position: absolute;
+  top: 474px;
+  left: 499px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button7{
+  position: absolute;
+  top: 451px;
+  left: 687px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select7{
+  position: absolute;
+  top: 470px;
+  left: 718px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+input.select7{
+  position: absolute;
+  top: 474px;
+  left: 694px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button8{
+  position: absolute;
+  top: 451px;
+  left: 880px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select8{
+  position: absolute;
+  top: 470px;
+  left: 912px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select8{
+  position: absolute;
+  top: 474px;
+  left: 888px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button9{
+  position: absolute;
+  top: 451px;
+  left: 1073px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select9{
+  position: absolute;
+  top: 470px;
+  left: 1105px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select9{
+  position: absolute;
+  top: 474px;
+  left: 1081px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button10{
+  position: absolute;
+  top: 451px;
+  left: 1266px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select10{
+  position: absolute;
+  top: 470px;
+  left: 1299px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+input.select10{
+  position: absolute;
+  top: 474px;
+  left: 1275px;
+  width: 19px;
+  height: 19px;
+
+}
+button.button11{
+  position: absolute;
+  top: 559px;
+  left: 494px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select11{
+  position: absolute;
+  top: 579px;
+  left: 523px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select11{
+  position: absolute;
+  top: 583px;
+  left: 499px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button12{
+  position: absolute;
+  top: 559px;
+  left: 687px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select12{
+  position: absolute;
+  top: 579px;
+  left: 718px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+input.select12{
+  position: absolute;
+  top: 583px;
+  left: 694px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button13{
+  position: absolute;
+  top: 559px;
+  left: 880px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select13{
+  position: absolute;
+  top: 579px;
+  left: 912px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+input.select13{
+  position: absolute;
+  top: 583px;
+  left: 888px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button14{
+  position: absolute;
+  top: 559px;
+  left: 1073px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select14{
+  position: absolute;
+  top: 579px;
+  left: 1105px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select14{
+  position: absolute;
+  top: 583px;
+  left: 1081px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button15{
+  position: absolute;
+  top: 559px;
+  left: 1266px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+
+label.select15{
+  position: absolute;
+  top: 579px;
+  left: 1299px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select15{
+  position: absolute;
+  top: 583px;
+  left: 1275px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button16{
+  position: absolute;
+  top: 666px;
+  left: 495px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select16{
+  position: absolute;
+  top: 685px;
+  left: 523px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select16{
+  position: absolute;
+  top: 689px;
+  left: 499px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button17{
+  position: absolute;
+  top: 666px;
+  left: 688px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select17{
+  position: absolute;
+  top: 685px;
+  left: 718px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select17{
+  position: absolute;
+  top: 689px;
+  left: 694px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button18{
+  position: absolute;
+  top: 666px;
+  left: 881px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select18{
+  position: absolute;
+  top: 685px;
+  left: 912px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select18{
+  position: absolute;
+  top: 689px;
+  left: 888px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button19{
+  position: absolute;
+  top: 666px;
+  left: 1074px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select19{
+  position: absolute;
+  top: 685px;
+  left: 1105px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+input.select19{
+  position: absolute;
+  top: 689px;
+  left: 1081px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button20{
+  position: absolute;
+  top: 666px;
+  left: 1267px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+
+label.select20{
+  position: absolute;
+  top: 685px;
+  left: 1299px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select20{
+  position: absolute;
+  top: 689px;
+  left: 1275px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button21{
+  position: absolute;
+  top: 773px;
+  left: 495px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select21{
+  position: absolute;
+  top: 792px;
+  left: 523px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select21{
+  position: absolute;
+  top: 796px;
+  left: 499px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.button22{
+  position: absolute;
+  top: 773px;
+  left: 688px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+  
+}
+
+label.select22{
+  position: absolute;
+  top: 792px;
+  left: 718px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select22{
+  position: absolute;
+  top: 796px;
+  left: 694px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button23{
+  position: absolute;
+  top: 773px;
+  left: 881px;
+  width: 158px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select23{
+  position: absolute;
+  top: 792px;
+  left: 912px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select23{
+  position: absolute;
+  top: 796px;
+  left: 888px;
+  width: 19px;
+  height: 19px;
+}
+
+button.button24{
+  position: absolute;
+  top: 773px;
+  left: 1074px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select24{
+  position: absolute;
+  top: 792px;
+  left: 1105px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select24{
+  position: absolute;
+  top: 796px;
+  left: 1081px;
+  width: 19px;
+  height: 19px;
+
+}
+button.button25{
+  position: absolute;
+  top: 773px;
+  left: 1267px;
+  width: 159px;
+  height: 62px;
+  background: #C2DEAD 0% 0% no-repeat padding-box;
+  border: 1px dashed #415937;
+  opacity: 0.17;
+}
+
+label.select25{
+  position: absolute;
+  top: 792px;
+  left: 1299px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquare;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+
+}
+
+input.select25{
+  position: absolute;
+  top: 796px;
+  left: 1275px;
+  width: 19px;
+  height: 19px;
+
+}
+
+button.how{
+  position: absolute;
+  top: 870px;
+  left: 796px;
+  width: 316px;
+  height: 62px;
+  border: 2px solid #415937;
+  opacity: 0.17;
+  font-family: SeoulHangang;
+  font-size: 18px;
+  border-radius: 5%;
+}
+div.howtext{
+  position: absolute;
+  top: 883px;
+  left: 916px;
+  width: 80px;
+  height: 33px;
+  text-align: center;
+  font: normal normal normal 22px/33px SangSangFlowerRoad;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}

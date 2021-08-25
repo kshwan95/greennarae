@@ -1,0 +1,43 @@
+@FONT-FACE{
+	font-family: 'SangSangFlowerRoad';
+	src: url("C:\Users\USER\Downloads\season\season\SangSangFlowerRoad.otf");
+}
+
+body{
+	font-family: 'SangSangFlowerRoad';
+	background-image: url(./main_img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1024px;
+}
+.select-season{
+	font-size: 70px;
+	margin-top: 98px;
+	margin-left: 370px;
+	color: #4D5933;
+}
+.line{ /*조리방법 아래 얇은 선*/
+	top: 211px;
+	width: 1196px;
+	height: 0px;
+	border: 2px solid #415937;
+    opacity: 1;
+    background: #415937;       
+    margin: 0px 360px;
+}
+.content-wrap{
+	height: 700px;
+	margin-top: 55.5px;    		
+}
+.img-box{
+	float: left;
+	margin: 0px 40px;
+}
+.img-box:nth-child(1){/*봄 상자에 margin-left 줘서 상자들 전체적으로 이동*/
+	margin-left: 360px;
+}    	
+.img-box img{
+	width: 234px;
+	height: 684px;
+}

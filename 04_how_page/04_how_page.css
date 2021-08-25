@@ -1,0 +1,122 @@
+body{
+    background-image: url('C:\\Users\\박지원\\Desktop\\데청캠\\기초 프로젝트\\웹 공부\\subpage.jpg');
+    width: 1920px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;        
+    font-family: SangSangFlowerRoad;
+}
+
+.select-how{
+    font-size: 90px;
+    text-align: center;
+    color: #4D5933;
+    margin-top: 74px;
+}
+
+.line{ /*조리방법 아래 얇은 선*/
+    top: 211px;
+    left: 359px;
+    width: 1196px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 1;
+    background: #415937;       
+    margin: 0px 360px;
+}
+.progress-bar{
+    display: block;
+    position: relative;
+    height: 178px;        
+}
+.progress-line{ /*진행상황바*/       
+    position: absolute;
+    top: 60.5px;
+    left: 491px;        
+    width: 937px;
+    height: 10px;
+    background: #C8CEB2;
+}
+.circle {/*진행상황 동그라미*/
+    position: absolute;
+    top: 48.5px;            
+    width: 33px;
+    height: 34px;
+    border-radius: 50%;
+    background: #C8CEB2;
+}
+.circle:nth-child(2) {/*진행상황 1번 동그라미*/
+    left: 680px;
+}    
+.circle:nth-child(3) {/*진행상황 2번(큰) 동그라미*/        
+    top: 36.5px;
+    left: 926px;
+    width: 52px;
+    height: 53px;
+}
+.circle:nth-child(4) {/*진행상황 1번 동그라미*/
+    left: 1180px;       
+}  
+.circle-text{/*진행상황 동그라미 속 text*/
+    margin-top: 4px;
+    font-size: 30px;
+    color: #4D5933;
+    text-align: center;     
+}
+
+.content-wrap {
+    top: 835px;
+    font-family: NanumSquareRoundL;
+    text-align: center;
+}
+
+.content-wrap div{
+    overflow: hidden;
+}
+.content-wrap > div:nth-child(1){
+    top: 388px;
+    margin-bottom: 68px;
+}
+
+.content-box{
+    display: inline-block;
+    position: relative;
+    margin: 0px 25px;        
+}
+.content-img img{
+    width: 180px;
+    height: 175px;
+}
+.content-wrap>div:nth-child(2) .content-img{/*상관없음 content-img 배경*/
+    background-color: #F5F5F5;
+}
+.content-box span{
+    display:inline-block;
+    text-align: center;
+    color: #F6F6F6;
+    width: 180px;
+    height: 31px;
+    font-size: 22px;
+}
+/*각 span태그 색 주기*/
+.content-box:nth-child(1) > span{/*끓이기*/
+    background-color: #0E1915;        
+}
+.content-box:nth-child(2) > span{/*볶기*/
+    background-color: #E5771B;        
+}
+.content-box:nth-child(3) > span{/*찌기*/
+    background-color: #563C2E;        
+}
+.content-box:nth-child(4) > span{/*튀기기*/
+    background-color: #BF8345;        
+}
+.content-wrap>div:nth-child(2) .content-box:nth-child(1)>span{/*굽기*/
+    background-color: #74240D;        
+}
+.content-wrap>div:nth-child(2) .content-box:nth-child(2)>span{/*기타*/
+    background-color: #54923C;        
+}
+.content-wrap>div:nth-child(2) .content-box:nth-child(3)>span{/*상관없음*/
+    background-color: #B4B5B1;        
+}

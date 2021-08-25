@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">     
+    <title>오늘의 비건</title>
+
+    <link rel="stylesheet" type="text/css" href="./static/css/02_season_page.css">   
+    <style type="text/css">
+		body{
+		  background-image : url('./static/img/mainpage.jpg');
+		  background-size: cover;
+		}
+		#button_group button:hover{
+		  color: white;
+		  background-color:#231709;
+		}
+		@FONT-FACE{
+        font-family: 'SangSangFlowerRoad';
+        src: url("./static/font/SangSangFlowerRoad.otf");
+        	}
+	</style>	
+</head>
+
+<body>
+	<div class = "select-season"> 어떤 제철음식을 먹고 싶나요?</div>
+	<div class ="line"></div>
+	<div class = "content-wrap">
+		<div class="img-box">
+            <img src="./static/img/box01Spring.png" onmouseover="this.src='./static/img/box01Spring_hover.png'" onmouseout ="this.src='./static/img/box01Spring.png'" onclick="window.location.href='/ingredient_page/Spring'" alt="봄">
+		</div>
+
+		<div class="img-box">
+			<img src="./static/img/box02Summer.png" onmouseover="this.src='./static/img/box02Summer_hover.png'" onmouseout ="this.src='./static/img/box02Summer.png'" onclick="window.location.href='/ingredient_page/Summer'" alt="여름">
+		</div>
+
+		<div class="img-box">
+			<img src="./static/img/box03Autumn.png" onmouseover="this.src='./static/img/box03Autumn_hover.png'" onmouseout ="this.src='./static/img/box03Autumn.png'" onclick="window.location.href='/ingredient_page/Autumn'" alt="가을">
+		</div>
+
+		<div class="img-box">
+			<img src="./static/img/box04Winter.png" onmouseover="this.src='./static/img/box04Winter_hover.png'" onmouseout ="this.src='./static/img/box04Winter.png'" onclick="window.location.href='/ingredient_page/Winter'" alt="겨울">
+		</div>				
+	</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+body{
+    width: 1920px;
+    height: 1024px;
+}
+
+div.title{
+    position:absolute;
+    top: 76px;
+    left: 622px;
+    width: 629px;
+    height: 135px;
+    text-align: left;
+    font: normal normal normal 90px/135px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #4D5933;
+    opacity: 1;
+}
+
+hr.line{
+    position: absolute;
+    top: 211px;
+    left: 359px;
+    width: 1196px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+}
+
+div.img1{
+    position:absolute;
+    top: 325px;
+    left: 364px;
+    width: 332px;
+    height: 332px;
+    border: 1px dashed #C2B8B8;
+    opacity: 1;
+}
+
+input.pic1{
+    background-image: url('salmon.jpg'); 
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    position:absolute;
+    top: 325px;
+    left: 364px;
+    width: 332px;
+    height: 332px;
+    width: 332px; 
+    height: 332px;
+}
+
+img.firstimg{
+    position: absolute;
+    top: 325px;
+    left: 364px;
+    width: 332px;
+    height: 332px;
+}
+
+hr.firstnameline1{
+    position: absolute;
+    top: 731px;
+    left: 364px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+p.firstname{
+    position: absolute;
+    top: 740.5px;
+    left: 472px;
+    width: 112px;
+    height: 32px;
+    text-align: center;
+    font: normal normal normal 29px/33px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+hr.firstnameline2{
+    position: absolute;
+    top: 820px;
+    left: 364px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+
+hr.firstunderline{
+    position: absolute;
+    top: 928px;
+    left: 346px;
+    width: 369px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+}
+
+div.img2{
+    position: absolute;
+    top: 325px;
+    left: 782px;
+    width: 332px;
+    height: 332px;
+    border: 1px dashed #C2B8B8;
+    opacity: 1;
+}
+img.pic2{
+    position: absolute;
+    top: 325px;
+    left: 782px;
+    width: 332px;
+    height: 332px;
+}
+hr.secondnameline1{
+    position: absolute;
+    top: 731px;
+    left: 783px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+p.secondname{
+    position: absolute;
+    top: 740.5px;
+    left: 890px;
+    width: 112px;
+    height: 32px;
+    text-align: center;
+    font: normal normal normal 29px/33px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+hr.secondnameline2{
+    position: absolute;
+    top: 820px;
+    left: 783px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+
+hr.secondunderline{
+    position: absolute;
+    top: 928px;
+    left: 764px;
+    width: 369px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+}
+div.img3{
+    position: absolute;
+    top: 325px;
+    left: 1205px;
+    width: 332px;
+    height: 332px;
+    border: 1px dashed #C2B8B8;
+    opacity: 1;
+}
+
+img.pic3{
+    position: absolute;
+    top: 325px;
+    left: 1205px;
+    width: 332px;
+    height: 332px;
+}
+hr.thirdnameline1{
+    position: absolute;
+    top: 731px;
+    left: 1206px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+p.thirdname{
+    position: absolute;
+    top: 740.5px;
+    left: 1316px;
+    width: 112px;
+    height: 32px;
+    text-align: center;
+    font: normal normal normal 29px/33px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+hr.thirdnameline2{
+    position: absolute;
+    top: 820px;
+    left: 1206px;
+    width: 332px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+hr.thirdunderline{
+    position: absolute;
+    top: 928px;
+    left: 1187px;
+    width: 369px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+}

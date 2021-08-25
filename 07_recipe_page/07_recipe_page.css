@@ -1,0 +1,406 @@
+body{
+    width: 1920px;
+    height: 1024px;
+}
+
+div.title{
+    position: absolute;
+    top: 84px;
+    left: 380px;
+    width: 250px;
+    height: 106px;
+    text-align: left;
+    font: normal normal normal 70px/106px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #4D5933;
+    opacity: 1;
+}
+
+hr.thickline1{
+    position: absolute;
+    top: 211px;
+    left: 359px;
+    width: 1196px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+}
+
+div.pic{
+    position: absolute;
+    top: 231px;
+    left: 363px;
+    width: 404px;
+    height: 404px;
+    border: 1px dashed #C2B8B8;
+    opacity: 1;
+}
+
+hr.line1{
+    position: absolute;
+    top: 231px;
+    left: 808px;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+hr.line2{
+    position:absolute;
+    top: 231px;
+    left: 990px;
+    width: 564px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+p.main_ingredient{
+    position:absolute;
+    top: 284px;
+    left: 850px;
+    width: 65px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 28px/42px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+hr.line3{
+    position: absolute;
+    top: 412px;
+    left: 808px;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+hr.line4{
+    position:absolute;
+    top: 412px;
+    left: 990px;
+    width: 564px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+
+p.sub_ingredient{
+    position:absolute;
+    top: 435px;
+    left: 855px;
+    width: 60px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 28px/42px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+hr.line5{
+    position:absolute;
+    top: 531px;
+    left: 808px;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+
+hr.line6{
+    position:absolute;
+    top: 531px;
+    left: 990px;
+    width: 564px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+
+}
+
+p.how{
+    position:absolute;
+    top: 545px;
+    left: 840px;
+    width: 80px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 28px/42px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+hr.line7{
+    position:absolute;
+    top: 635px;
+    left: 808px;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+hr.line8{
+    position:absolute;
+    top: 635px;
+    left: 990px;
+    width: 564px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 0.5;
+}
+
+hr.thickline2{
+    position:absolute;
+    top: 663px;
+    left: 359px;
+    width: 185px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+
+}
+
+hr.thickline3{
+    position:absolute;
+    top: 664px;
+    left: 570px;
+    width: 985px;
+    height: 0px;
+    border: 2px solid #415937;
+    opacity: 1;
+
+}
+
+p.recipe{
+    position:absolute;
+    top: 684px;
+    left: 412px;
+    width: 66px;
+    height: 45px;
+    text-align: center;
+    font: normal normal normal 30px/45px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+p.recipe1{
+    position:absolute;
+    top: 688px;
+    left: 589px;
+    width: 22px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+
+p.recipe2{
+    position:absolute;
+    top: 755px;
+    left: 587px;
+    width: 26px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+
+p.recipe3{
+    position:absolute;
+    top: 822px;
+    left: 587px;
+    width: 26px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+
+p.recipe4{
+    position:absolute;
+    top: 889px;
+    left: 586px;
+    width: 28px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+p.recipe5{
+    position:absolute;
+    top: 956px;
+    left: 587px;
+    width: 26px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+
+p.recipe6{
+    position:absolute;
+    top: 1023px;
+    left: 587px;
+    width: 26px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+
+p.recipe7{
+    position:absolute;
+    top: 1090px;
+    left: 587px;
+    width: 26px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 30px/30px DX새날B;
+    letter-spacing: 0px;
+    color: #B3BF81;
+    opacity: 1;
+}
+
+div.underbar{
+    position: absolute;
+    top: 1209px;
+    left: 0px;
+    width: 1920px;
+    height: 291px;
+    background: #415937 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+p.greennarae{
+    position:absolute;
+    top: 1301px;
+    left: 407px;
+    width: 120px;
+    height: 52px;
+    text-align: left;
+    font: normal normal normal 35px/52px SangSangFlowerRoad;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+p.introduce{
+    position:absolute;
+    top: 1361px;
+    left: 407px;
+    width: 462px;
+    height: 35px;
+    text-align: left;
+    font: normal normal normal 20px/23px NanumSquare;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+p.for{
+    position: absolute;
+    top: 1307px;
+    left: 874px;
+    width: 38px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/23px NanumSquare;
+    letter-spacing: 0px;
+    color: #DFF2B4;
+    opacity: 1;
+}
+
+p.vegan{
+    position: absolute;
+    top: 1359px;
+    left: 832px;
+    width: 128px;
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 23px/27px NanumSquare;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+p.recipe_num{
+    position: absolute;
+    top: 1308px;
+    left: 1104px;
+    width: 101px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/23px NanumSquare;
+    letter-spacing: 0px;
+    color: #DFF2B4;
+    opacity: 1;
+}
+p.num{
+    position: absolute;
+    top: 1359px;
+    left: 1105px;
+    width: 88px;
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 23px/27px NanumSquare;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+p.contact{
+    position: absolute;
+    top: 1308px;
+    left: 1352px;
+    width: 78px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/23px NanumSquare;
+    letter-spacing: 0px;
+    color: #DFF2B4;
+    opacity: 1;
+}
+
+p.mail{
+    position: absolute;
+    top: 1359px;
+    left: 1328px;
+    width: 145px;
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 23px/27px NanumSquare;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

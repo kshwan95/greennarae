@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="UTF-8">  
+    <title>오늘의 비건</title>
+
+    <link rel="stylesheet" type="text/css" href="./static/css/04_how_page.css">   
+    <style type="text/css">
+		body{
+		  background-image : url('./static/img/mainpage.jpg');
+		  background-size: cover;
+		}
+		#button_group button:hover{
+		  color: white;
+		  background-color:#231709;
+		}
+		@FONT-FACE{
+        font-family: 'SangSangFlowerRoad';
+        src: url("./static/font/SangSangFlowerRoad.otf");
+        	}
+	</style>
+</head>
+
+<body>
+    <div class="select-how">조리방법</div>
+    <div class="line"></div>
+
+    <div class="progress-bar">
+        <div class="progress-line"></div>
+        <div class="circle"></div>
+        <div class="circle">
+            <div class="circle-text">02</div>
+        </div>
+        <div class="circle"></div>
+    </div>
+
+    <div class="content-wrap">
+        <div><!--content box 4개 묶음-->
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box1.jpg" onclick="window.location.href='/level_page/끓이기'" alt="끓이기">
+                </div>
+                <span>끓이기</span>
+            </div>
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box2.jpg" onclick="window.location.href='/ingredient_page/끓이기'" alt="볶기">
+                </div>
+                <span>볶기</span>
+            </div>
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box3.jpg" onclick="window.location.href='/ingredient_page/끓이기'" alt="찌기">
+                </div>
+                <span>찌기</span>
+            </div>
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box4.jpg" onclick="window.location.href='/ingredient_page/끓이기'" alt="튀기기">
+                </div>
+                <span>튀기기</span>
+            </div>                                    
+        </div>
+
+        <div><!--content box 3개 묶음-->
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box5.jpg" onclick="window.location.href='/ingredient_page/끓이기'" alt="굽기">
+                </div>
+                <span>굽기</span>
+            </div>
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box6.jpg" onclick="window.location.href='/ingredient_page/끓이기'" alt="기타">
+                </div>
+                <span>기타</span>
+            </div>
+            <div class="content-box">
+                <div class="content-img">
+                    <img src="./static/img/box7.png" onclick="window.location.href='/ingredient_page/끓이기'" alt="상관없어요">
+                </div>
+                <span>상관없어요</span>
+            </div>                        
+        </div>
+    </div>
+
+</body>
+</html>

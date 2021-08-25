@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>요리검색결과페이지</title>
+	<link rel="stylesheet" type="text/css" href="./static/css/06_search_page.css">
+    <style type="text/css">
+		body{
+		  background-image : url('./static/img/mainpage.jpg');
+		  background-size: cover;
+          font-family: SangSangFlowerRoad;
+		}
+		#button_group button:hover{
+		  color: white;
+		  background-color:#231709;
+		}
+		@FONT-FACE{
+        font-family: 'SangSangFlowerRoad';
+        src: url("./static/font/SangSangFlowerRoad.otf");
+        	}
+
+        @FONT-FACE{
+        font-family: 'NanumSquare';
+        src: url("./static/font/NanumSquareR.otf");
+        }
+
+	</style>
+</head>
+<body>
+    <div class="title">이런 요리는 어떠세요?</div>
+    <hr class="line">
+    <div class="first">
+        <button type="button" class="pic1" onclick="window.location.href='/recipe_page/{{top_ID[0]}}'">
+            <img class="firstimg" src={{top_PIC[0]}} width: 332px height: 332px>
+        <hr class="firstnameline1">
+        <p class="firstname">{{top_TITLE[0]}}</p>
+        <hr class="firstnameline2">
+        <hr class="firstunderline">
+    </div>
+    <div class="second">
+        <div class="img2"></div>
+        <img class='pic2' src={{top_PIC[1]}} width="332px" height="332px">
+        <hr class="secondnameline1">
+        <p class="secondname">{{top_TITLE[1]}}</p>
+        <hr class="secondnameline2">
+        <hr class="secondunderline">
+    </div>
+    <div class="third">
+        <div class="img3"></div>
+        <img class='pic3' src={{top_PIC[2]}} width="332px" height="332px">
+        <hr class="thirdnameline1">
+        <p class="thirdname">{{top_TITLE[2]}}</p>
+        <hr class="thirdnameline2">
+        <hr class="thirdunderline">
+    </div>
+</body>
+</html>

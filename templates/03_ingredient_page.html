@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+	<title>재료선택페이지</title>
+
+    <link rel="stylesheet" type="text/css" href="./static/css/ingredient_style.css">
+    <style>
+      body{
+        background-image : url('./static/img/mainpage.jpg');
+        background-size: cover;
+      }
+      #button_group button:hover{
+        color: white;
+        background-color:#231709;
+      }
+
+      @FONT-FACE{
+        font-family: 'SangSangFlowerRoad';
+        src: url("./static/font/SangSangFlowerRoad.otf");
+        	}
+
+      @FONT-FACE{
+        font-family: 'NanumSquare';
+        src: url("./static/font/NanumSquareR.otf");
+    }
+
+      
+    </style>
+</head>
+
+<body>
+  <div class="season">{{season_state}}</div>
+  <hr class="upper_line">
+  <hr class="line">
+  <div class="circle1"></div>
+  <div class="circle_text">01</div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+    <div id="button_group">
+      <form method="GET" action='/how_page'>
+        <button type="button" class="button1"></button>
+        <label class="select1" for="select1">{{country_list[0]}}</label>
+        <input class="select1" type="checkbox" name="chk[]" id="select1" value='{{country_list[0]}}'  />
+
+        <button type="button" class="button2"></button>
+        <label class="select2" for="select2">{{country_list[1]}}</label>
+        <input class="select2" type="checkbox" name="chk[]" id="select2" value={{country_list[1]}}   />
+
+        <button type="button" class="button3"></button>
+        <label class="select3" for="select3">{{country_list[2]}}</label>
+        <input class="select3" type="checkbox" name="chk[]" id="select3" value={{country_list[2]}}   />
+
+        <button type="button" class="button4"></button>
+        <label class="select4" for="select4">{{country_list[3]}}</label>
+        <input class="select4" type="checkbox" name="chk[]" id="select4" value={{country_list[3]}}  />
+
+        <button type="button" class="button5"></button>
+        <label class="select5" for="select5">{{country_list[4]}}</label>
+        <input class="select5" type="checkbox" name="chk[]" id="select5" value={{country_list[4]}}  />
+
+        <button type="button" class="button6"></button>
+        <label class="select6" for="select6">{{country_list[5]}}</label>
+        <input class="select6" type="checkbox" name="chk[]" id="select6" value={{country_list[5]}}  />
+
+        <button type="button" class="button7"></button>
+        <label class="select7" for="select7">{{country_list[6]}}</label>
+        <input class="select7" type="checkbox" name="chk[]" id="select7" value={{country_list[6]}}  />
+      
+        <button type="button" class="button8"></button>
+        <label class="select8" for="select8">{{country_list[7]}}</label>
+        <input class="select8" type="checkbox" name="chk[]" id="select8" value={{country_list[7]}}  />
+      
+        <button type="button" class="button9"></button>
+        <label class="select9" for="select9">{{country_list[8]}}</label>
+        <input class="select9" type="checkbox" name="chk[]" id="select9" value={{country_list[8]}} />
+
+        <button type="button" class="button10"></button>
+        <label class="select10" for="select10">{{country_list[9]}}</label>
+        <input class="select10" type="checkbox" name="chk[]" id="select10" value={{country_list[9]}} />
+      
+        <button type="button" class="button11"></button>
+        <label class="select11" for="select11">{{country_list[10]}}</label>
+        <input class="select11" type="checkbox" name="chk[]" id="select11" value={{country_list[10]}}  />
+
+        <button type="button" class="button12"></button>
+        <label class="select12" for="select12">{{country_list[11]}}</label>
+        <input class="select12" type="checkbox" name="chk[]" id="select12" value={{country_list[11]}}  />
+      
+        <button type="button" class="button13"></button>
+        <label class="select13" for="select13">{{country_list[12]}}</label>
+        <input class="select13" type="checkbox" name="chk[]" id="select13" value={{country_list[12]}}   />
+
+        <button type="button" class="button14"></button>
+        <label class="select14" for="select14">{{country_list[13]}}</label>
+        <input class="select14" type="checkbox" name="chk[]" id="select14" value={{country_list[13]}}  />
+
+        <button type="button" class="button15"></button>
+        <label class="select15" for="select15">{{country_list[14]}}</label>
+        <input class="select15" type="checkbox" name="chk[]" id="select15" value={{country_list[14]}}  />
+
+        <button type="button" class="button16"></button>
+        <label class="select16" for="select16">{{country_list[15]}}</label>
+        <input class="select16" type="checkbox" name="chk[]" id="select16" value={{country_list[15]}}  />
+
+        <button type="button" class="button17"></button>
+        <label class="select17" for="select17">{{country_list[16]}}</label>
+        <input class="select17" type="checkbox" name="chk[]" id="select17" value={{country_list[16]}}   />
+    
+        <button type="button" class="button18"></button>
+        <label class="select18" for="select18">{{country_list[17]}}</label>
+        <input class="select18" type="checkbox" name="chk[]" id="select18" value={{country_list[17]}}   />
+
+        <button type="button" class="button19"></button>
+        <label class="select19" for="select19">{{country_list[18]}}</label>
+        <input class="select19" type="checkbox" name="chk[]" id="select19" value={{country_list[18]}}   />
+      
+        <button type="button" class="button20"></button>
+        <label class="select20" for="select20">{{country_list[19]}}</label>
+        <input class="select20" type="checkbox" name="chk[]" id="select20" value={{country_list[19]}}  />
+      
+        <button type="button" class="button21"></button>
+        <label class="select21" for="select21">{{country_list[20]}}</label>
+        <input class="select21" type="checkbox" name="chk[]" id="select21" value={{country_list[20]}}   />
+      
+        <button type="button" class="button22"></button>
+        <label class="select22" for="select22">{{country_list[21]}}</label>
+        <input class="select22" type="checkbox" name="chk[]" id="select22" value={{country_list[21]}}  />
+        
+        <button type="button" class="button23"></button>
+        <label class="select23" for="select23">{{country_list[22]}}</label>
+        <input class="select23" type="checkbox" name="chk[]" id="select23" value={{country_list[22]}}   />
+      
+        <button type="button" class="button24"></button>
+        <label class="select24" for="select24">{{country_list[23]}}</label>
+        <input class="select24" type="checkbox" name="chk[]" id="select24" value={{country_list[23]}}  />
+
+        <button type="button" class="button25"></button>
+        <label class="select25" for="select25">{{country_list[29]}}</label>
+        <input class="select25" type="checkbox" name="chk[]" id="select25" value='{{country_list[29]}}'  />
+      
+        <input type="submit" class="how" onclick="window.location.href='/how_page'">
+
+      </form>
+    </div>
+    
+  <button type="button" class="how" onclick="window.location.href='/how_page'"></button>
+  <div class="howtext">선택완료</div>
+  
+  
+</body>
+</html>
